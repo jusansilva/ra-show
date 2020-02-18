@@ -1,0 +1,5 @@
+tasks:
+  - init: cd ar-show
+  - before: npm install & npm start
+image:
+  file: .gitpod.Dockerfile
