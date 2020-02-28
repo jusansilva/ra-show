@@ -3,8 +3,7 @@ var app = new Express()
 
 
 app.get('/', (req, res)=>{
-       res.render('resources/views/index');
-
+       res.render('views/index');
 })
 
 app.listen(5000, function () {
